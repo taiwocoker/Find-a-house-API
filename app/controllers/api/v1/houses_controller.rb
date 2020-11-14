@@ -1,5 +1,6 @@
 module Api::V1
   class HousesController < SecuredController
+   
     def index
       render json: House.all
     end
