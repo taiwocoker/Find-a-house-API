@@ -7,6 +7,11 @@ module Api::V1
       render json: user, status: :created
     end
 
+    def show
+      @user = User.find(params[:id])
+      return render json: @user.houses, status: :ok if @user
+    end
+
     def new_favourite
       @user = User.find_by(id: favourite_params[:user_id])
       @house = House.find_by(id: favourite_params[:house_id])
