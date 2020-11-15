@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: tcoker
+  api_key: '286186839578136'
+  api_secret: ftj9kkDg4Rec2sfw5BMjWtR2lt4
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: tcoker
+  api_key: '286186839578136'
+  api_secret: ftj9kkDg4Rec2sfw5BMjWtR2lt4
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: tcoker
+  api_key: '286186839578136'
+  api_secret: ftj9kkDg4Rec2sfw5BMjWtR2lt4
+  enhance_image_tag: true
+  static_file_support: false
