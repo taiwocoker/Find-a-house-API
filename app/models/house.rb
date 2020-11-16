@@ -9,5 +9,4 @@ class House < ApplicationRecord
   def img_url
     url_for(image)
   end
-
 end

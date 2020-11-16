@@ -7,5 +7,3 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create(username: 'Taiwo Coker', email: 'taiwofcoker@gmail.com')
-
-
