@@ -1,29 +1,48 @@
-# FIND_A_HOUSE_API
-In this app you can see a list of houses you like and have your favorites with a click. Built with Ruby on Rails, React, Bootstrap and Redux.
+# Find Your House API
 
-## API Links
+- A RESTFUL API built with Ruby on Rails. It uses Auth0 authorization. A login form from Auth0 is provided for the users to log in.
 
-> [LINk]().
+## About this project
 
-## Technologies Used
+- This API is built as the back end for a web application built with React on the front end and is separately deployed to Netlify.
+
+## End Points
+- There are a couple of endpoints exposed by this api and can be accessed online using [this path](https://arcane-scrubland-62933.herokuapp.com/) as the base Url.
+
+POST
+- /users - (create user account)
+- /favourites - (create favourites)
+
+GET
+- /houses - (fetch all houses)
+- /favourites - (fetch favourite houses)
+
+
+## Built With
 - Ruby on Rails
-- RSpec
+- Auth0
+- JWT gem
+- Postgresql
+- Heroku
+- Rspec
 
-### Installation
-- Install VSCode or any code editor you like;
-- Install the latest versions of Ruby and Ruby on Rails.
+## Live Demo
+- For the full working application Click [here](https://arcane-scrubland-62933.herokuapp.com/)
 
-### Testing the application
+## Installation
+- To get a local copy up and running follow these simple example steps.
 
-Requirements
+### Setup
+- Clone [this](https://github.com/taiwocoker/Find-a-house-API) repo
 
-- [Postman](https://www.getpostman.com/) - API development and testing environment.
+### Follow:
+1. cd into the project directory
+2. run bundle install
+3. run rails db:migrate
+4. run rails db:seed
+5. run rails db:seed
+7. Navigate to localhost:3001
 
-Testing with Postman
-
-- Install Postman by following the link above.
-- Navigate to `localhost:3000` in Postman to access the application.
-- Use the API Documentation to access the endpoints available.
 
 ## Author
 
@@ -33,18 +52,12 @@ Testing with Postman
 - Twitter: [@twitterhandle](https://twitter.com/SelloCoker)
 - Linkedin: [linkedin](https://linkedin.com/in/taiwo-coker)
 
-
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+- Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/taiwocoker/Find-a-house-API/issues).
+- Feel free to check the [issues page](https://github.com/taiwocoker/Find-a-house-API/issues)
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- MIcroverse
-- Microverse TSE's
+- Give a ⭐️ if you like this project!
