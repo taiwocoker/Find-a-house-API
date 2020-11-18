@@ -7,6 +7,7 @@ module Api::V1
       @welcome = 'Welcome to my App!'
       render html: @welcome
     end
+
     def create
       return render json: @user, status: :ok if @user
 

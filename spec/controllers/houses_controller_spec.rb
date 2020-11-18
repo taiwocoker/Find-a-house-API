@@ -24,4 +24,3 @@ RSpec.describe Api::V1::HousesController, type: :controller do
     end
   end
 end
-
